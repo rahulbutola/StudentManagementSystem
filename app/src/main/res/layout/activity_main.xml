@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#b8abde"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Management System"
+        android:textColor="#0c0768"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/text_view"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3.22"
+            android:layout_marginTop="0dp"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textColor="#000"
+            android:background="#c6ec84"
+            android:textSize="20sp"
+            android:id="@+id/text_view1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="6"
+            android:id="@+id/edit_text1"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:layout_weight="3.22"
+            android:textColor="#000"
+            android:background="#c6ec84"
+            android:textSize="20sp"
+            android:id="@+id/text_view2"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+
+            android:layout_weight="6"
+            android:id="@+id/edit_text2"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textColor="#000"
+
+            android:background="#c6ec84"
+            android:textSize="20sp"
+            android:id="@+id/text_view3"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="6"
+            android:id="@+id/edit_text3"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3.22"
+            android:layout_height="wrap_content"
+            android:text="College Name"
+            android:textColor="#000"
+            android:background="#c6ec84"
+            android:textSize="20sp"
+            android:id="@+id/text_view4"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:id="@+id/edit_text4"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="Add"
+            android:id="@+id/addbutton"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:text="Display"
+            android:id="@+id/dispbutton"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textColor="#000"
+        android:id="@+id/edit_text5"/>
+</LinearLayout>
